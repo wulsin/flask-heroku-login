@@ -21,4 +21,8 @@ wwulsin=# \q
 $ flask run
 # Test that it opens in http://127.0.0.1:5000/
 
+# Deploy to Heroku
+$ heroku create flask-heroku-login-wulsin
+$ heroku addons:create heroku-postgresql:hobby-dev --app flask-heroku-login-wulsin
+
 
